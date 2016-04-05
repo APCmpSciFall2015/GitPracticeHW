@@ -1,0 +1,7 @@
+git checkout master //switch to master
+git branch -D develop newfeature // delete branches on local
+git push origin :develop :newfeature //delete branches on remote
+git tag -d V0.1 //set version to 0.1
+git push origin :V0.1 //push it to origin
+git reset --hard //reset local directory
+git push -force //push it to remote with force
